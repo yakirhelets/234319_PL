@@ -1,6 +1,3 @@
-// yakir helets 305028441 yakirh@campus.technion.ac.il
-// yuval isaschar 313362097 isaschar@campus.technion.ac.il
-
 use std::io;
 use std::cmp::Ordering;
 use std::env;
@@ -18,7 +15,7 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue,
         };
-    	
+
 		println!("Please input your guess.");
 
 	    let mut guess = String::new();

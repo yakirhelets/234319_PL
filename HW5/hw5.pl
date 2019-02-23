@@ -1,10 +1,7 @@
-/* yakir helets 305028441 yakirh@campus.technion.ac.il */
-/* yuval isaschar 313362097 isaschar@campus.technion.ac.il */
-
 compress([], []).
 compress([X,X|Xs], L):-
     compress([X|Xs], L), !.
-compress([X|Xs], [X|L]):- 
+compress([X|Xs], [X|L]):-
     compress(Xs, L).
 
 range(X, X, [X]).

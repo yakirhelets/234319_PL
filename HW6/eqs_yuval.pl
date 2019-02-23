@@ -1,6 +1,3 @@
-
-%['/Users/yuvalisaschar/Desktop/eqs.pl'].%
-
 use_module(library(clpfd)).
 
 is_list([]).

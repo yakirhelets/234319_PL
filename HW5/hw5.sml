@@ -1,6 +1,3 @@
-(*yakir helets 305028441 yakirh@campus.technion.ac.il*)
-(*yuval isaschar 313362097 isaschar@campus.technion.ac.il*)
-
 (* Task 3 *)
 datatype 'a seq = nil
 | Cons of ('a) * (unit-> 'a seq);

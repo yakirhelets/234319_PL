@@ -1,6 +1,3 @@
-(*yakir helets 305028441 yakirh@campus.technion.ac.il*)
-(*yuval isaschar 313362097 isaschar@campus.technion.ac.il*)
-
 datatype 'a AVLTree = Nil | Br of ((int*('a))*('a AVLTree)*('a AVLTree));
 datatype Balance = RR | LR | LL | RL;
 exception NotFound;
