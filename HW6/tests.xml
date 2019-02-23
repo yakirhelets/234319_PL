@@ -1,0 +1,206 @@
+<tests>
+<testsuite errors="5" failures="0" name="test.general.TestTestPrologfreak-20180719102654" tests="5" time="2.424">
+	<testcase classname="test.general.TestTestPrologfreak" name="test_free_days" time="0.620">
+		<error message="unexpectedly None : Failed - something failed: % PL-Unit: free_days 
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:5:
+	test free_days_empty: received error: plunit_free_days:'unit body'/2: Undefined procedure: plunit_free_days:free_days/2
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:16:
+	test free_days_grounded: received error: plunit_free_days:'unit body'/2: Undefined procedure: plunit_free_days:free_days/2
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:27:
+	test free_days_grounded2: received error: plunit_free_days:'unit body'/2: Undefined procedure: plunit_free_days:free_days/2
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:37:
+	test free_days_should_fail: received error: not/1: Undefined procedure: plunit_free_days:free_days/2
+ done
+% 4 tests failed
+% 0 tests passed
+Warning: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	Goal (directive) failed: user:run_tests
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/timeout_decorator/timeout_decorator.py", line 81, in new_function
+    return function(*args, **kwargs)
+  File "/home/tomer/PycharmProjects/proLang/tester/test/prolog.py", line 16, in test_function
+    self.assertIsNotNone(bottom_line_regex.fullmatch(bottom_line), f'Failed - something failed: {output}')
+AssertionError: unexpectedly None : Failed - something failed: % PL-Unit: free_days 
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:5:
+	test free_days_empty: received error: plunit_free_days:'unit body'/2: Undefined procedure: plunit_free_days:free_days/2
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:16:
+	test free_days_grounded: received error: plunit_free_days:'unit body'/2: Undefined procedure: plunit_free_days:free_days/2
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:27:
+	test free_days_grounded2: received error: plunit_free_days:'unit body'/2: Undefined procedure: plunit_free_days:free_days/2
+ERROR: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	/tmp/tmp_hy9oo20/test_free_days.pl:37:
+	test free_days_should_fail: received error: not/1: Undefined procedure: plunit_free_days:free_days/2
+ done
+% 4 tests failed
+% 0 tests passed
+Warning: /tmp/tmp_hy9oo20/test_free_days.pl:42:
+	Goal (directive) failed: user:run_tests
+
+]]>		</error>
+	</testcase>
+	<testcase classname="test.general.TestTestPrologfreak" name="test_lunch_friendly" time="0.523">
+		<error message="unexpectedly None : Failed - something failed: Warning: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:5:
+	Singleton variables: [Schedule,S]
+% PL-Unit: lunch_friendly 
+ERROR: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	/tmp/tmp73tuh4f6/test_lunch_friendly.pl:5:
+	test lunch_friendly_empty: received error: plunit_lunch_friendly:'unit body'/2: Undefined procedure: plunit_lunch_friendly:weekly_schedule/2
+ERROR: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	/tmp/tmp73tuh4f6/test_lunch_friendly.pl:8:
+	test lunch_friendly_pass: received error: plunit_lunch_friendly:'unit body'/2: Undefined procedure: plunit_lunch_friendly:lunch_friendly/1
+ERROR: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	/tmp/tmp73tuh4f6/test_lunch_friendly.pl:13:
+	test lunch_friendly_should_fail: received error: not/1: Undefined procedure: plunit_lunch_friendly:lunch_friendly/1
+ done
+% 3 tests failed
+% 0 tests passed
+Warning: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	Goal (directive) failed: user:run_tests
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/timeout_decorator/timeout_decorator.py", line 81, in new_function
+    return function(*args, **kwargs)
+  File "/home/tomer/PycharmProjects/proLang/tester/test/prolog.py", line 16, in test_function
+    self.assertIsNotNone(bottom_line_regex.fullmatch(bottom_line), f'Failed - something failed: {output}')
+AssertionError: unexpectedly None : Failed - something failed: Warning: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:5:
+	Singleton variables: [Schedule,S]
+% PL-Unit: lunch_friendly 
+ERROR: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	/tmp/tmp73tuh4f6/test_lunch_friendly.pl:5:
+	test lunch_friendly_empty: received error: plunit_lunch_friendly:'unit body'/2: Undefined procedure: plunit_lunch_friendly:weekly_schedule/2
+ERROR: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	/tmp/tmp73tuh4f6/test_lunch_friendly.pl:8:
+	test lunch_friendly_pass: received error: plunit_lunch_friendly:'unit body'/2: Undefined procedure: plunit_lunch_friendly:lunch_friendly/1
+ERROR: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	/tmp/tmp73tuh4f6/test_lunch_friendly.pl:13:
+	test lunch_friendly_should_fail: received error: not/1: Undefined procedure: plunit_lunch_friendly:lunch_friendly/1
+ done
+% 3 tests failed
+% 0 tests passed
+Warning: /tmp/tmp73tuh4f6/test_lunch_friendly.pl:20:
+	Goal (directive) failed: user:run_tests
+
+]]>		</error>
+	</testcase>
+	<testcase classname="test.general.TestTestPrologfreak" name="test_no_running" time="0.379">
+		<error message="unexpectedly None : Failed - something failed: % PL-Unit: no_running 
+ERROR: /tmp/tmp7vdluez1/test_no_running.pl:19:
+	/tmp/tmp7vdluez1/test_no_running.pl:5:
+	test no_running_pass: received error: not/1: Undefined procedure: plunit_no_running:no_running/1
+ERROR: /tmp/tmp7vdluez1/test_no_running.pl:19:
+	/tmp/tmp7vdluez1/test_no_running.pl:11:
+	test no_running_should_fail: received error: not/1: Undefined procedure: plunit_no_running:no_running/1
+ done
+% 2 tests failed
+% 0 tests passed
+Warning: /tmp/tmp7vdluez1/test_no_running.pl:19:
+	Goal (directive) failed: user:run_tests
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/timeout_decorator/timeout_decorator.py", line 81, in new_function
+    return function(*args, **kwargs)
+  File "/home/tomer/PycharmProjects/proLang/tester/test/prolog.py", line 16, in test_function
+    self.assertIsNotNone(bottom_line_regex.fullmatch(bottom_line), f'Failed - something failed: {output}')
+AssertionError: unexpectedly None : Failed - something failed: % PL-Unit: no_running 
+ERROR: /tmp/tmp7vdluez1/test_no_running.pl:19:
+	/tmp/tmp7vdluez1/test_no_running.pl:5:
+	test no_running_pass: received error: not/1: Undefined procedure: plunit_no_running:no_running/1
+ERROR: /tmp/tmp7vdluez1/test_no_running.pl:19:
+	/tmp/tmp7vdluez1/test_no_running.pl:11:
+	test no_running_should_fail: received error: not/1: Undefined procedure: plunit_no_running:no_running/1
+ done
+% 2 tests failed
+% 0 tests passed
+Warning: /tmp/tmp7vdluez1/test_no_running.pl:19:
+	Goal (directive) failed: user:run_tests
+
+]]>		</error>
+	</testcase>
+	<testcase classname="test.general.TestTestPrologfreak" name="test_no_wake_up" time="0.376">
+		<error message="unexpectedly None : Failed - something failed: % PL-Unit: no_wake_up 
+ERROR: /tmp/tmpylhiiipj/test_no_wake_up.pl:17:
+	/tmp/tmpylhiiipj/test_no_wake_up.pl:5:
+	test no_wake_up_pass: received error: plunit_no_wake_up:'unit body'/2: Undefined procedure: plunit_no_wake_up:no_wake_up/1
+ERROR: /tmp/tmpylhiiipj/test_no_wake_up.pl:17:
+	/tmp/tmpylhiiipj/test_no_wake_up.pl:8:
+	test no_wake_up_should_fail: received error: not/1: Undefined procedure: plunit_no_wake_up:no_wake_up/1
+ done
+% 2 tests failed
+% 0 tests passed
+Warning: /tmp/tmpylhiiipj/test_no_wake_up.pl:17:
+	Goal (directive) failed: user:run_tests
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/timeout_decorator/timeout_decorator.py", line 81, in new_function
+    return function(*args, **kwargs)
+  File "/home/tomer/PycharmProjects/proLang/tester/test/prolog.py", line 16, in test_function
+    self.assertIsNotNone(bottom_line_regex.fullmatch(bottom_line), f'Failed - something failed: {output}')
+AssertionError: unexpectedly None : Failed - something failed: % PL-Unit: no_wake_up 
+ERROR: /tmp/tmpylhiiipj/test_no_wake_up.pl:17:
+	/tmp/tmpylhiiipj/test_no_wake_up.pl:5:
+	test no_wake_up_pass: received error: plunit_no_wake_up:'unit body'/2: Undefined procedure: plunit_no_wake_up:no_wake_up/1
+ERROR: /tmp/tmpylhiiipj/test_no_wake_up.pl:17:
+	/tmp/tmpylhiiipj/test_no_wake_up.pl:8:
+	test no_wake_up_should_fail: received error: not/1: Undefined procedure: plunit_no_wake_up:no_wake_up/1
+ done
+% 2 tests failed
+% 0 tests passed
+Warning: /tmp/tmpylhiiipj/test_no_wake_up.pl:17:
+	Goal (directive) failed: user:run_tests
+
+]]>		</error>
+	</testcase>
+	<testcase classname="test.general.TestTestPrologfreak" name="test_weekly_schedule" time="0.526">
+		<error message="unexpectedly None : Failed - something failed: % PL-Unit: weekly_schedule 
+ERROR: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	/tmp/tmpachf_q_8/test_weekly_schedule.pl:5:
+	test weekly_schedule_empty: received error: plunit_weekly_schedule:'unit body'/2: Undefined procedure: plunit_weekly_schedule:weekly_schedule/2
+ERROR: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	/tmp/tmpachf_q_8/test_weekly_schedule.pl:8:
+	test weekly_schedule_grounded: received error: plunit_weekly_schedule:'unit body'/2: Undefined procedure: plunit_weekly_schedule:weekly_schedule/2
+ERROR: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	/tmp/tmpachf_q_8/test_weekly_schedule.pl:19:
+	test weekly_schedule_should_fail: received error: not/1: Undefined procedure: plunit_weekly_schedule:weekly_schedule/2
+ done
+% 3 tests failed
+% 0 tests passed
+Warning: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	Goal (directive) failed: user:run_tests
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/timeout_decorator/timeout_decorator.py", line 81, in new_function
+    return function(*args, **kwargs)
+  File "/home/tomer/PycharmProjects/proLang/tester/test/prolog.py", line 16, in test_function
+    self.assertIsNotNone(bottom_line_regex.fullmatch(bottom_line), f'Failed - something failed: {output}')
+AssertionError: unexpectedly None : Failed - something failed: % PL-Unit: weekly_schedule 
+ERROR: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	/tmp/tmpachf_q_8/test_weekly_schedule.pl:5:
+	test weekly_schedule_empty: received error: plunit_weekly_schedule:'unit body'/2: Undefined procedure: plunit_weekly_schedule:weekly_schedule/2
+ERROR: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	/tmp/tmpachf_q_8/test_weekly_schedule.pl:8:
+	test weekly_schedule_grounded: received error: plunit_weekly_schedule:'unit body'/2: Undefined procedure: plunit_weekly_schedule:weekly_schedule/2
+ERROR: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	/tmp/tmpachf_q_8/test_weekly_schedule.pl:19:
+	test weekly_schedule_should_fail: received error: not/1: Undefined procedure: plunit_weekly_schedule:weekly_schedule/2
+ done
+% 3 tests failed
+% 0 tests passed
+Warning: /tmp/tmpachf_q_8/test_weekly_schedule.pl:24:
+	Goal (directive) failed: user:run_tests
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
+</tests>
